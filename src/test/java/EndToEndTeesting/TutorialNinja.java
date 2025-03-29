@@ -171,6 +171,6 @@ public class TutorialNinja {
 	@AfterClass
 	public void tearDown() {
 		
-		driver.quit();
+		driver.close();
 	}
 }
